@@ -3,15 +3,14 @@
 Following is the list of all the environment variables that are used in this project.
 
 ```sh
-  # Mandatory Variables
-  NAME
-  PIC
+ NAME=Jihann
+PIC=https://imgur.com/a/r9gIELd # Ganti dengan URL foto Jihann
 
-  # Optional Variables
-  NICKNAME
-  HBD_MSG
-  SCROLL_MSG
-  OPEN_DATE
+# Optional Variables
+NICKNAME=Jihan
+HBD_MSG="Selamat ulang tahun, Jihann! Semoga di usia 15 ini, kamu makin semangat mengejar impian, tetap bahagia, sehat selalu, dan dikelilingi oleh orang-orang yang menyayangimu!"
+SCROLL_MSG=https://telegra.ph/Happy-Birthday-03-24-29
+OPEN_DATE
 ```
 
 - The `NAME` and `NICKNAME` are self explainatory. `NICKNAME` is optional. If no nickname is provided, then value of name will be used in its place.
